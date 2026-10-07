@@ -91,6 +91,8 @@ a {
     align-items: center;
 
     gap: 12px;
+
+    text-decoration: none;
 }
 
 .brand-logo {
@@ -131,39 +133,72 @@ a {
 
 
 /* =================================
-   GitHub
+   Navigation Actions
 ================================= */
 
-.github-link {
+.nav-actions {
+    margin-left: auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+
+/* =================================
+   GitHub Button
+================================= */
+
+.github-button {
+    height: 40px;
+
     display: inline-flex;
     align-items: center;
     justify-content: center;
 
-    padding: 9px 15px;
+    gap: 8px;
+
+    padding: 0 15px;
 
     border: 1px solid var(--border);
-    border-radius: 8px;
 
-    color: #475569;
+    border-radius: 9px;
+
+    background: #ffffff;
+
+    color: #374151;
 
     font-size: 13px;
     font-weight: 600;
 
+    text-decoration: none;
+
     transition:
-        color 0.2s ease,
         background 0.2s ease,
         border-color 0.2s ease,
-        transform 0.2s ease;
+        color 0.2s ease,
+        transform 0.2s ease,
+        box-shadow 0.2s ease;
 }
 
-.github-link:hover {
-    color: var(--text);
+.github-button svg {
+    width: 17px;
+    height: 17px;
 
+    fill: currentColor;
+}
+
+.github-button:hover {
     background: #f8fafc;
 
     border-color: #cbd5e1;
 
+    color: #111827;
+
     transform: translateY(-1px);
+
+    box-shadow:
+        0 4px 12px rgba(15, 23, 42, 0.06);
 }
 
 
@@ -220,7 +255,7 @@ a {
 
 
 /* =================================
-   Heading
+   Hero Heading
 ================================= */
 
 h1 {
@@ -245,7 +280,7 @@ h1 span {
 
 
 /* =================================
-   Description
+   Hero Description
 ================================= */
 
 .hero-description {
@@ -264,7 +299,7 @@ h1 span {
 
 
 /* =================================
-   Download Area
+   Download
 ================================= */
 
 .download-area {
@@ -277,7 +312,7 @@ h1 span {
 
 
 /* =================================
-   Download Button
+   Windows Button
 ================================= */
 
 .download-button {
@@ -335,7 +370,7 @@ h1 span {
 
 
 /* =================================
-   Release Information
+   Release Note
 ================================= */
 
 .download-note {
@@ -395,7 +430,8 @@ h1 span {
 
     font-weight: 600;
 
-    transition: color 0.2s ease;
+    transition:
+        color 0.2s ease;
 }
 
 .source-link:hover {
@@ -471,10 +507,18 @@ h1 span {
         display: none;
     }
 
-    .github-link {
-        padding: 8px 12px;
+
+    .github-button {
+        height: 38px;
+
+        padding: 0 12px;
 
         font-size: 12px;
+    }
+
+    .github-button svg {
+        width: 16px;
+        height: 16px;
     }
 
 
