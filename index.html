@@ -1,202 +1,191 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#09090b">
+  <meta name="description" content="HisabDesk is a complete practice management system for accounting and consulting firms in Nepal. Manage clients, documents, VAT tracking, work assignments, fees, payments, and reports in one desktop application.">
+  <title>HisabDesk</title>
 
-    <title>HisabDesk</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
 
-    <meta
-        name="description"
-        content="HisabDesk is a desktop practice management system built for accounting and consulting firms in Nepal."
-    >
-
-    <!-- Poppins -->
-    <link
-        rel="preconnect"
-        href="https://fonts.googleapis.com"
-    >
-
-    <link
-        rel="preconnect"
-        href="https://fonts.gstatic.com"
-        crossorigin
-    >
-
-    <link
-        href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap"
-        rel="stylesheet"
-    >
-
-    <!-- Font Awesome -->
-    <link
-        rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
-    >
-
-    <link rel="stylesheet" href="style.css">
+  <link rel="apple-touch-icon" sizes="57x57" href="/assets/favicon/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="/assets/favicon/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/assets/favicon/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/assets/favicon/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/assets/favicon/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="/assets/favicon/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="/assets/favicon/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/assets/favicon/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="/assets/favicon/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="/assets/favicon/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon/favicon-16x16.png">
+  <link rel="manifest" href="/assets/favicon/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="/assets/favicon/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
 </head>
-
 <body>
+  <div class="ambient ambient-one" aria-hidden="true"></div>
+  <div class="ambient ambient-two" aria-hidden="true"></div>
 
-<div class="page">
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="brand" href="#home" aria-label="HisabDesk home">
+        <span class="brand-mark">HD</span>
+        <span class="brand-copy">
+          <strong>HisabDesk</strong>
+          <small>by Remote Accounting &amp; Consulting Pvt. Ltd.</small>
+        </span>
+      </a>
 
-    <header class="header">
+      <div class="nav-actions">
+        <a class="button button-outline button-sm github-button" href="https://github.com/remote-accounting-and-consulting/hisabdesk-desktop" target="_blank" rel="noopener noreferrer">
+          <i class="fa-brands fa-github" aria-hidden="true"></i>
+          GitHub
+        </a>
+      </div>
+    </nav>
+  </header>
 
-        <nav class="nav">
+  <main id="home">
+    <section class="hero container">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="status-dot"></span> Accounting &amp; Consulting Practice Management System</div>
+        <h1>Run your practice.<br><span>With clarity.</span></h1>
+        <p class="hero-description">HisabDesk is a complete practice management system for accounting and consulting firms in Nepal. It provides a simple and organized way to manage clients, documents, VAT tracking, work assignments, fees, payments, and reports — all from one desktop application.</p>
 
-            <a
-                href="#"
-                class="brand"
-                aria-label="HisabDesk"
-            >
-
-                <img
-                    class="brand-logo"
-                    src="https://placehold.co/1024x1024/2563eb/ffffff.png?text=HD"
-                    alt="HisabDesk logo"
-                >
-
-                <div class="brand-info">
-
-                    <div class="brand-name">
-                        HisabDesk
-                    </div>
-
-                    <div class="brand-company">
-                        Remote Accounting and Consulting Pvt. Ltd.
-                    </div>
-
-                </div>
-
-            </a>
-
-
-            <a
-                class="github-link"
-                href="https://github.com/remote-accounting-and-consulting/hisabdesk-desktop"
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label="View HisabDesk source code on GitHub"
-            >
-
-                <i
-                    class="fa-brands fa-github"
-                    aria-hidden="true"
-                ></i>
-
-                <span>
-                    GitHub
-                </span>
-
-            </a>
-
-        </nav>
-
-    </header>
-
-
-    <main class="hero">
-
-        <section class="hero-content">
-
-            <div class="eyebrow">
-                Accounting & Consulting Practice Management System
-            </div>
-
-
-            <h1>
-                Run your practice
-                <span>with clarity.</span>
-            </h1>
-
-
-            <p class="hero-description">
-                HisabDesk is a desktop practice management system built for accounting and consulting firms in Nepal. It provides a simple and organized way to manage clients, practice activities, and day-to-day workflows in one place.
-            </p>
-
-
-            <div class="download-area">
-
-                <a
-                    class="download-button"
-                    href="https://github.com/remote-accounting-and-consulting/hisabdesk-desktop/releases/latest/download/HisabDesk-Setup.msi"
-                >
-
-                    <i
-                        class="fa-brands fa-windows"
-                        aria-hidden="true"
-                    ></i>
-
-                    <span>
-                        Download for Windows
-                    </span>
-
-                </a>
-
-
-                <p class="download-note">
-                    Latest stable release · Windows installer (.msi)
-                </p>
-
-            </div>
-
-
-            <div class="platforms">
-
-                <h2>
-                    Linux &amp; macOS
-                </h2>
-
-                <p>
-                    Pre-built installers are not currently available for
-                    Linux or macOS. You can build HisabDesk yourself
-                    from the source code.
-                </p>
-
-
-                <a
-                    class="source-link"
-                    href="https://github.com/remote-accounting-and-consulting/hisabdesk-desktop"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                >
-
-                    <span>
-                        View source on GitHub
-                    </span>
-
-                    <i
-                        class="fa-solid fa-arrow-up-right-from-square"
-                        aria-hidden="true"
-                    ></i>
-
-                </a>
-
-            </div>
-
-        </section>
-
-    </main>
-
-
-    <footer class="footer">
-
-        <div class="footer-inner">
-
-            <span class="copyright">
-                © 2026 HisabDesk. All rights reserved.
-            </span>
-
-            <span class="footer-name">
-                Remote Accounting and Consulting Pvt. Ltd.
-            </span>
-
+        <div class="hero-actions" id="download">
+          <a class="button button-primary button-lg" href="https://github.com/remote-accounting-and-consulting/hisabdesk-desktop/releases/latest/download/HisabDesk-Setup.msi">
+            <i class="fa-brands fa-windows" aria-hidden="true"></i>
+            Download for Windows
+          </a>
         </div>
 
-    </footer>
+        <div class="platform-note">
+          <div class="platform-copy">
+            <strong>Linux &amp; macOS</strong>
+            <p>Pre-built installers are not currently available. You can build HisabDesk from the source code.</p>
+            <a href="https://github.com/remote-accounting-and-consulting/hisabdesk-desktop" target="_blank" rel="noopener noreferrer">View source on GitHub <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+      </div>
 
-</div>
+      <div class="product-preview" aria-label="Illustrative HisabDesk dashboard preview">
+        <div class="preview-glow"></div>
+        <div class="dashboard-window">
+          <div class="window-topbar">
+            <div class="window-controls"><i></i><i></i><i></i></div>
+            <div class="window-title">HisabDesk <span>/</span> Dashboard</div>
+          </div>
+          <div class="dashboard-layout">
+            <aside class="dashboard-sidebar">
+              <div class="mini-brand"><span class="mini-mark">HD</span><b>HisabDesk</b></div>
+              <div class="side-item active"><span><i class="fa-solid fa-house" aria-hidden="true"></i></span> Dashboard</div>
+              <div class="side-item"><span><i class="fa-solid fa-users" aria-hidden="true"></i></span> Clients</div>
+              <div class="side-item"><span><i class="fa-solid fa-folder-open" aria-hidden="true"></i></span> Documents</div>
+              <div class="side-item"><span><i class="fa-solid fa-percent" aria-hidden="true"></i></span> VAT Tracking</div>
+              <div class="side-item"><span><i class="fa-solid fa-list-check" aria-hidden="true"></i></span> Work assignments</div>
+              <div class="side-item"><span><i class="fa-solid fa-wallet" aria-hidden="true"></i></span> Fees &amp; Payments</div>
+              <div class="side-item"><span><i class="fa-solid fa-chart-column" aria-hidden="true"></i></span> Reports</div>
+              <div class="sidebar-bottom"><i class="fa-solid fa-gear" aria-hidden="true"></i> Settings</div>
+            </aside>
+            <div class="dashboard-main">
+              <div class="dashboard-heading">
+                <div><h3>Good morning 👋</h3><p>Here’s an overview of your practice.</p></div>
+                <span class="period-select">This month <i class="fa-solid fa-chevron-down" aria-hidden="true"></i></span>
+              </div>
+              <div class="stat-grid">
+                <div class="stat-card"><span class="stat-icon blue"><i class="fa-solid fa-users" aria-hidden="true"></i></span><div><small>Total clients</small><strong>248</strong><em>+12.8%</em></div></div>
+                <div class="stat-card"><span class="stat-icon violet"><i class="fa-solid fa-list-check" aria-hidden="true"></i></span><div><small>Open tasks</small><strong>32</strong><em>+4.2%</em></div></div>
+                <div class="stat-card"><span class="stat-icon green">रु</span><div><small>Payments received</small><strong>NPR 4.85L</strong><em>+18.4%</em></div></div>
+                <div class="stat-card"><span class="stat-icon amber"><i class="fa-solid fa-percent" aria-hidden="true"></i></span><div><small>VAT deadlines</small><strong>08</strong><em class="due">Due soon</em></div></div>
+              </div>
+              <div class="dashboard-bottom">
+                <div class="panel activity-panel">
+                  <div class="panel-heading"><div><h4>Practice activity</h4><p>Overview of recent work</p></div><span class="tiny-menu"><i class="fa-solid fa-ellipsis" aria-hidden="true"></i></span></div>
+                  <div class="chart">
+                    <div class="chart-y"><span>40</span><span>30</span><span>20</span><span>10</span><span>0</span></div>
+                    <svg viewBox="0 0 420 140" preserveAspectRatio="none" aria-label="Illustrative activity chart">
+                      <defs><linearGradient id="chartFill" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#3b82f6" stop-opacity=".30"/><stop offset="100%" stop-color="#3b82f6" stop-opacity="0"/></linearGradient></defs>
+                      <path class="gridline" d="M0 15H420 M0 42H420 M0 69H420 M0 96H420 M0 123H420"/>
+                      <path class="chart-area" d="M0 108 C25 98 35 78 65 88 S110 101 140 68 S190 83 220 61 S275 30 300 48 S350 78 375 38 S400 35 420 20 L420 130 L0 130Z"/>
+                      <path class="chart-line" d="M0 108 C25 98 35 78 65 88 S110 101 140 68 S190 83 220 61 S275 30 300 48 S350 78 375 38 S400 35 420 20"/>
+                    </svg>
+                    <div class="chart-x"><span>Jan</span><span>Feb</span><span>Mar</span><span>Apr</span><span>May</span><span>Jun</span></div>
+                  </div>
+                </div>
+                <div class="panel tasks-panel">
+                  <div class="panel-heading"><div><h4>Upcoming work</h4><p>Next on your list</p></div><span class="tiny-menu"><i class="fa-solid fa-ellipsis" aria-hidden="true"></i></span></div>
+                  <div class="task-row"><span class="task-check"></span><div><b>VAT return review</b><small>Himalayan Traders</small></div><span class="task-date">Today</span></div>
+                  <div class="task-row"><span class="task-check"></span><div><b>Prepare monthly report</b><small>Everest Supplies</small></div><span class="task-date">Oct 12</span></div>
+                  <div class="task-row"><span class="task-check checked">✓</span><div><b>Client documents</b><small>Gurung &amp; Associates</small></div><span class="task-date">Done</span></div>
+                </div>
+              </div>
+              <div class="preview-footnote"><span class="live-dot"></span> Dashboard preview for illustrative purposes</div>
+            </div>
+          </div>
+        </div>
+        <div class="floating-chip"><span class="chip-check">✓</span><span><b>Everything organized</b><small>One workspace for your practice</small></span></div>
+      </div>
+    </section>
 
+    <section class="features-section container" id="features">
+      <div class="section-heading">
+        <span class="section-kicker">MADE FOR YOUR WORKFLOW</span>
+        <h2>Everything your practice needs.</h2>
+        <p>Stay organized, keep work moving, and get a clearer view of your firm’s day-to-day operations.</p>
+      </div>
+
+      <div class="feature-grid">
+        <article class="feature-card">
+          <div class="feature-icon"><i class="fa-solid fa-users" aria-hidden="true"></i></div>
+          <h3>Client management</h3>
+          <p>Keep client details and important information organized in one place.</p>
+        </article>
+        <article class="feature-card">
+          <div class="feature-icon"><i class="fa-solid fa-folder-open" aria-hidden="true"></i></div>
+          <h3>Document management</h3>
+          <p>Store and find client documents without losing track of the details.</p>
+        </article>
+        <article class="feature-card">
+          <div class="feature-icon"><i class="fa-solid fa-percent" aria-hidden="true"></i></div>
+          <h3>VAT tracking</h3>
+          <p>Track VAT-related work and keep important deadlines in view.</p>
+        </article>
+        <article class="feature-card">
+          <div class="feature-icon"><i class="fa-solid fa-list-check" aria-hidden="true"></i></div>
+          <h3>Work assignments</h3>
+          <p>Organize assignments and monitor work across your practice.</p>
+        </article>
+        <article class="feature-card">
+          <div class="feature-icon"><i class="fa-solid fa-wallet" aria-hidden="true"></i></div>
+          <h3>Fees &amp; payments</h3>
+          <p>Keep fees, payments, invoices, and outstanding dues easier to follow.</p>
+        </article>
+        <article class="feature-card">
+          <div class="feature-icon"><i class="fa-solid fa-chart-column" aria-hidden="true"></i></div>
+          <h3>Reports</h3>
+          <p>Review useful practice information and make more informed decisions.</p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <a class="brand footer-brand" href="#home">
+        <span class="brand-mark">HD</span>
+        <span class="brand-copy"><strong>HisabDesk</strong><small>by Remote Accounting &amp; Consulting Pvt. Ltd.</small></span>
+      </a>
+      <p class="copyright">© 2026 HisabDesk. All rights reserved.</p>
+    </div>
+  </footer>
 </body>
 </html>
